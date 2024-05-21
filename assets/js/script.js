@@ -110,3 +110,20 @@ document
     // Hapus elemen <a> dari dokumen
     document.body.removeChild(link);
   });
+
+/**  Download Pdf */
+document.getElementById("downloadPdf").addEventListener("click", function () {
+  // Buat elemen <a> untuk mengunduh file
+  var link = document.createElement("a");
+  link.href = "./assets/PORTFOLIO ILHAM.pdf"; // Ganti path ini dengan lokasi file CV Anda
+  link.download = "Portfolio_ilham.pdf"; // Ganti nama file jika perlu
+
+  // Tambahkan elemen <a> ke dokumen
+  document.body.appendChild(link);
+
+  // Klik elemen <a> secara otomatis
+  link.click();
+
+  // Hapus elemen <a> dari dokumen
+  document.body.removeChild(link);
+});
