@@ -114,7 +114,7 @@ document
 document.getElementById("downloadPdf").addEventListener("click", function () {
   // Buat elemen <a> untuk mengunduh file
   var link = document.createElement("a");
-  link.href = "./assets/PORTFOLIO ILHAM.pdf"; // Ganti path ini dengan lokasi file CV Anda
+  link.href = "./assets/PORTFOLIO NEW ILHAM.pdf"; // Ganti path ini dengan lokasi file CV Anda
 
   // Tambahkan elemen <a> ke dokumen
   document.body.appendChild(link);
